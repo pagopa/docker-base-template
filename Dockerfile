@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:adoptopenjdk/openjdk11:jre-11.0.16_8-alpine@sha256:818447903a60cdc4d909a5f6d4f4d34027aaac34e476298f7def40906c5d69d6
+FROM adoptopenjdk/openjdk11:jre-11.0.16_8-alpine@sha256:818447903a60cdc4d909a5f6d4f4d34027aaac34e476298f7def40906c5d69d6
 
 RUN addgroup -S spring && adduser -S spring -G spring
 USER spring:spring
